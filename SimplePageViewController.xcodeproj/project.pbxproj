@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1E31686A5B346C8B90D6A74 /* libPods-SimplePageViewControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EA2E461811477B93F5907E /* libPods-SimplePageViewControllerTests.a */; };
+		CD23AD2319C7DCA7006F4F6C /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD23AD2219C7DCA7006F4F6C /* TestAppDelegate.m */; };
+		CD23AD2719C7EDD5006F4F6C /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = CD23AD2619C7EDD5006F4F6C /* Utility.m */; };
+		CD23AD2919C7EF4C006F4F6C /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD23AD2819C7EF4C006F4F6C /* Test.storyboard */; };
+		CD23AD2B19C818A6006F4F6C /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD23AD2819C7EF4C006F4F6C /* Test.storyboard */; };
+		CD23AD2E19C838D7006F4F6C /* TestDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CD23AD2D19C838D7006F4F6C /* TestDataSource.m */; };
+		CD3E1CB519C06A340059DB19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3E1CB419C06A340059DB19 /* Foundation.framework */; };
+		CD3E1CB719C06A340059DB19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3E1CB619C06A340059DB19 /* CoreGraphics.framework */; };
+		CD3E1CBF19C06A340059DB19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD3E1CBD19C06A340059DB19 /* InfoPlist.strings */; };
+		CD3E1CC119C06A340059DB19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E1CC019C06A340059DB19 /* main.m */; };
+		CD3E1CC519C06A340059DB19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E1CC419C06A340059DB19 /* AppDelegate.m */; };
+		CD3E1CC719C06A340059DB19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3E1CC619C06A340059DB19 /* Images.xcassets */; };
+		CD3E1CCE19C06A340059DB19 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3E1CCD19C06A340059DB19 /* XCTest.framework */; };
+		CD3E1CCF19C06A340059DB19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3E1CB419C06A340059DB19 /* Foundation.framework */; };
+		CD3E1CD019C06A340059DB19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3E1CB819C06A340059DB19 /* UIKit.framework */; };
+		CD3E1CD819C06A340059DB19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD3E1CD619C06A340059DB19 /* InfoPlist.strings */; };
+		CD3E1CDA19C06A340059DB19 /* SimplePageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E1CD919C06A340059DB19 /* SimplePageViewControllerTests.m */; };
+		CD3E1CE419C06B500059DB19 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3E1CE319C06B500059DB19 /* main.storyboard */; };
+		CD3E1CE719C06BA40059DB19 /* SimplePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3E1CE619C06BA40059DB19 /* SimplePageViewController.m */; };
+		CD58903B19C187EC0041A953 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD58903A19C187EC0041A953 /* ColorViewController.m */; };
+		CD58904219C2B7160041A953 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD58904119C2B7160041A953 /* ModelController.m */; };
+		CD58904319C2C9D60041A953 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3E1CB819C06A340059DB19 /* UIKit.framework */; };
+		CD74C0F619C96C1C00184BCF /* RotationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74C0F519C96C1C00184BCF /* RotationDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD3E1CD119C06A340059DB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3E1CA919C06A340059DB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3E1CB019C06A340059DB19;
+			remoteInfo = SimplePageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3EA2E461811477B93F5907E /* libPods-SimplePageViewControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimplePageViewControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD23AD2119C7DCA7006F4F6C /* TestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		CD23AD2219C7DCA7006F4F6C /* TestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+		CD23AD2519C7EDD5006F4F6C /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		CD23AD2619C7EDD5006F4F6C /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		CD23AD2819C7EF4C006F4F6C /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		CD23AD2A19C813EE006F4F6C /* SimplePageViewController+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimplePageViewController+Test.h"; sourceTree = "<group>"; };
+		CD23AD2C19C838D7006F4F6C /* TestDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDataSource.h; sourceTree = "<group>"; };
+		CD23AD2D19C838D7006F4F6C /* TestDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDataSource.m; sourceTree = "<group>"; };
+		CD3E1CB119C06A340059DB19 /* SimplePageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3E1CB419C06A340059DB19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD3E1CB619C06A340059DB19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD3E1CB819C06A340059DB19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD3E1CBC19C06A340059DB19 /* SimplePageViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplePageViewController-Info.plist"; sourceTree = "<group>"; };
+		CD3E1CBE19C06A340059DB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD3E1CC019C06A340059DB19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3E1CC219C06A340059DB19 /* SimplePageViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimplePageViewController-Prefix.pch"; sourceTree = "<group>"; };
+		CD3E1CC319C06A340059DB19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3E1CC419C06A340059DB19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD3E1CC619C06A340059DB19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD3E1CCC19C06A340059DB19 /* SimplePageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3E1CCD19C06A340059DB19 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD3E1CD519C06A340059DB19 /* SimplePageViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimplePageViewControllerTests-Info.plist"; sourceTree = "<group>"; };
+		CD3E1CD719C06A340059DB19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD3E1CD919C06A340059DB19 /* SimplePageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplePageViewControllerTests.m; sourceTree = "<group>"; };
+		CD3E1CE319C06B500059DB19 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		CD3E1CE519C06BA40059DB19 /* SimplePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePageViewController.h; sourceTree = "<group>"; };
+		CD3E1CE619C06BA40059DB19 /* SimplePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePageViewController.m; sourceTree = "<group>"; };
+		CD3E1CE819C06EBF0059DB19 /* SimplePageViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePageViewControllerDelegate.h; sourceTree = "<group>"; };
+		CD58903919C187EC0041A953 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		CD58903A19C187EC0041A953 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		CD58903C19C2B19A0041A953 /* SimplePageViewControllerDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePageViewControllerDataSource.h; sourceTree = "<group>"; };
+		CD58904019C2B7160041A953 /* ModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		CD58904119C2B7160041A953 /* ModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		CD74C0F419C96C1C00184BCF /* RotationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationDelegate.h; sourceTree = "<group>"; };
+		CD74C0F519C96C1C00184BCF /* RotationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationDelegate.m; sourceTree = "<group>"; };
+		E0DA84C463F64F80A689991E /* Pods-SimplePageViewControllerTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePageViewControllerTests.xcconfig"; path = "Pods/Pods-SimplePageViewControllerTests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3E1CAE19C06A340059DB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD58904319C2C9D60041A953 /* UIKit.framework in Frameworks */,
+				CD3E1CB719C06A340059DB19 /* CoreGraphics.framework in Frameworks */,
+				CD3E1CB519C06A340059DB19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3E1CC919C06A340059DB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3E1CCE19C06A340059DB19 /* XCTest.framework in Frameworks */,
+				CD3E1CD019C06A340059DB19 /* UIKit.framework in Frameworks */,
+				CD3E1CCF19C06A340059DB19 /* Foundation.framework in Frameworks */,
+				B1E31686A5B346C8B90D6A74 /* libPods-SimplePageViewControllerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD23AD2419C7EDAE006F4F6C /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				CD23AD2519C7EDD5006F4F6C /* Utility.h */,
+				CD23AD2619C7EDD5006F4F6C /* Utility.m */,
+				CD23AD2A19C813EE006F4F6C /* SimplePageViewController+Test.h */,
+				CD23AD2C19C838D7006F4F6C /* TestDataSource.h */,
+				CD23AD2D19C838D7006F4F6C /* TestDataSource.m */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		CD3E1CA819C06A340059DB19 = {
+			isa = PBXGroup;
+			children = (
+				CD3E1CBA19C06A340059DB19 /* SimplePageViewController */,
+				CD3E1CD319C06A340059DB19 /* SimplePageViewControllerTests */,
+				CD3E1CB319C06A340059DB19 /* Frameworks */,
+				CD3E1CB219C06A340059DB19 /* Products */,
+				E0DA84C463F64F80A689991E /* Pods-SimplePageViewControllerTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3E1CB219C06A340059DB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3E1CB119C06A340059DB19 /* SimplePageViewController.app */,
+				CD3E1CCC19C06A340059DB19 /* SimplePageViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3E1CB319C06A340059DB19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3E1CB419C06A340059DB19 /* Foundation.framework */,
+				CD3E1CB619C06A340059DB19 /* CoreGraphics.framework */,
+				CD3E1CB819C06A340059DB19 /* UIKit.framework */,
+				CD3E1CCD19C06A340059DB19 /* XCTest.framework */,
+				B3EA2E461811477B93F5907E /* libPods-SimplePageViewControllerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3E1CBA19C06A340059DB19 /* SimplePageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD58903F19C2B6A30041A953 /* base */,
+				CD58903D19C2B6170041A953 /* datasource */,
+				CD3E1CC319C06A340059DB19 /* AppDelegate.h */,
+				CD3E1CC419C06A340059DB19 /* AppDelegate.m */,
+				CD3E1CC619C06A340059DB19 /* Images.xcassets */,
+				CD3E1CBB19C06A340059DB19 /* Supporting Files */,
+				CD3E1CE319C06B500059DB19 /* main.storyboard */,
+				CD74C0F419C96C1C00184BCF /* RotationDelegate.h */,
+				CD74C0F519C96C1C00184BCF /* RotationDelegate.m */,
+			);
+			path = SimplePageViewController;
+			sourceTree = "<group>";
+		};
+		CD3E1CBB19C06A340059DB19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD3E1CBC19C06A340059DB19 /* SimplePageViewController-Info.plist */,
+				CD3E1CBD19C06A340059DB19 /* InfoPlist.strings */,
+				CD3E1CC019C06A340059DB19 /* main.m */,
+				CD3E1CC219C06A340059DB19 /* SimplePageViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD3E1CD319C06A340059DB19 /* SimplePageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3E1CD919C06A340059DB19 /* SimplePageViewControllerTests.m */,
+				CD23AD2419C7EDAE006F4F6C /* utility */,
+				CD3E1CD419C06A340059DB19 /* Supporting Files */,
+				CD23AD2119C7DCA7006F4F6C /* TestAppDelegate.h */,
+				CD23AD2219C7DCA7006F4F6C /* TestAppDelegate.m */,
+			);
+			path = SimplePageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		CD3E1CD419C06A340059DB19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD3E1CD519C06A340059DB19 /* SimplePageViewControllerTests-Info.plist */,
+				CD3E1CD619C06A340059DB19 /* InfoPlist.strings */,
+				CD23AD2819C7EF4C006F4F6C /* Test.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD58903D19C2B6170041A953 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				CD58903919C187EC0041A953 /* ColorViewController.h */,
+				CD58903A19C187EC0041A953 /* ColorViewController.m */,
+				CD58904019C2B7160041A953 /* ModelController.h */,
+				CD58904119C2B7160041A953 /* ModelController.m */,
+			);
+			name = datasource;
+			sourceTree = "<group>";
+		};
+		CD58903F19C2B6A30041A953 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				CD3E1CE519C06BA40059DB19 /* SimplePageViewController.h */,
+				CD3E1CE619C06BA40059DB19 /* SimplePageViewController.m */,
+				CD3E1CE819C06EBF0059DB19 /* SimplePageViewControllerDelegate.h */,
+				CD58903C19C2B19A0041A953 /* SimplePageViewControllerDataSource.h */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3E1CB019C06A340059DB19 /* SimplePageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3E1CDD19C06A340059DB19 /* Build configuration list for PBXNativeTarget "SimplePageViewController" */;
+			buildPhases = (
+				CD3E1CAD19C06A340059DB19 /* Sources */,
+				CD3E1CAE19C06A340059DB19 /* Frameworks */,
+				CD3E1CAF19C06A340059DB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePageViewController;
+			productName = SimplePageViewController;
+			productReference = CD3E1CB119C06A340059DB19 /* SimplePageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3E1CCB19C06A340059DB19 /* SimplePageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3E1CE019C06A340059DB19 /* Build configuration list for PBXNativeTarget "SimplePageViewControllerTests" */;
+			buildPhases = (
+				69E87282474340B287E57796 /* Check Pods Manifest.lock */,
+				CD3E1CC819C06A340059DB19 /* Sources */,
+				CD3E1CC919C06A340059DB19 /* Frameworks */,
+				CD3E1CCA19C06A340059DB19 /* Resources */,
+				0770DCD551FA4B5DBA348A8E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3E1CD219C06A340059DB19 /* PBXTargetDependency */,
+			);
+			name = SimplePageViewControllerTests;
+			productName = SimplePageViewControllerTests;
+			productReference = CD3E1CCC19C06A340059DB19 /* SimplePageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3E1CA919C06A340059DB19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Patrick;
+				TargetAttributes = {
+					CD3E1CCB19C06A340059DB19 = {
+						TestTargetID = CD3E1CB019C06A340059DB19;
+					};
+				};
+			};
+			buildConfigurationList = CD3E1CAC19C06A340059DB19 /* Build configuration list for PBXProject "SimplePageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD3E1CA819C06A340059DB19;
+			productRefGroup = CD3E1CB219C06A340059DB19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3E1CB019C06A340059DB19 /* SimplePageViewController */,
+				CD3E1CCB19C06A340059DB19 /* SimplePageViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3E1CAF19C06A340059DB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3E1CBF19C06A340059DB19 /* InfoPlist.strings in Resources */,
+				CD3E1CC719C06A340059DB19 /* Images.xcassets in Resources */,
+				CD23AD2B19C818A6006F4F6C /* Test.storyboard in Resources */,
+				CD3E1CE419C06B500059DB19 /* main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3E1CCA19C06A340059DB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD23AD2919C7EF4C006F4F6C /* Test.storyboard in Resources */,
+				CD3E1CD819C06A340059DB19 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0770DCD551FA4B5DBA348A8E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-SimplePageViewControllerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69E87282474340B287E57796 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3E1CAD19C06A340059DB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3E1CE719C06BA40059DB19 /* SimplePageViewController.m in Sources */,
+				CD3E1CC519C06A340059DB19 /* AppDelegate.m in Sources */,
+				CD74C0F619C96C1C00184BCF /* RotationDelegate.m in Sources */,
+				CD58904219C2B7160041A953 /* ModelController.m in Sources */,
+				CD58903B19C187EC0041A953 /* ColorViewController.m in Sources */,
+				CD3E1CC119C06A340059DB19 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3E1CC819C06A340059DB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD23AD2319C7DCA7006F4F6C /* TestAppDelegate.m in Sources */,
+				CD23AD2719C7EDD5006F4F6C /* Utility.m in Sources */,
+				CD23AD2E19C838D7006F4F6C /* TestDataSource.m in Sources */,
+				CD3E1CDA19C06A340059DB19 /* SimplePageViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3E1CD219C06A340059DB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3E1CB019C06A340059DB19 /* SimplePageViewController */;
+			targetProxy = CD3E1CD119C06A340059DB19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3E1CBD19C06A340059DB19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3E1CBE19C06A340059DB19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD3E1CD619C06A340059DB19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3E1CD719C06A340059DB19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3E1CDB19C06A340059DB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD3E1CDC19C06A340059DB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3E1CDE19C06A340059DB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePageViewController/SimplePageViewController-Prefix.pch";
+				INFOPLIST_FILE = "SimplePageViewController/SimplePageViewController-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD3E1CDF19C06A340059DB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePageViewController/SimplePageViewController-Prefix.pch";
+				INFOPLIST_FILE = "SimplePageViewController/SimplePageViewController-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD3E1CE119C06A340059DB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DA84C463F64F80A689991E /* Pods-SimplePageViewControllerTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimplePageViewController.app/SimplePageViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePageViewController/SimplePageViewController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimplePageViewControllerTests/SimplePageViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD3E1CE219C06A340059DB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DA84C463F64F80A689991E /* Pods-SimplePageViewControllerTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimplePageViewController.app/SimplePageViewController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimplePageViewController/SimplePageViewController-Prefix.pch";
+				INFOPLIST_FILE = "SimplePageViewControllerTests/SimplePageViewControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3E1CAC19C06A340059DB19 /* Build configuration list for PBXProject "SimplePageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3E1CDB19C06A340059DB19 /* Debug */,
+				CD3E1CDC19C06A340059DB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3E1CDD19C06A340059DB19 /* Build configuration list for PBXNativeTarget "SimplePageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3E1CDE19C06A340059DB19 /* Debug */,
+				CD3E1CDF19C06A340059DB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3E1CE019C06A340059DB19 /* Build configuration list for PBXNativeTarget "SimplePageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3E1CE119C06A340059DB19 /* Debug */,
+				CD3E1CE219C06A340059DB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3E1CA919C06A340059DB19 /* Project object */;
+}

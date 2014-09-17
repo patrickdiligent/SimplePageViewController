@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="x71-NM-LFN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Simple Page View Controller-->
+        <scene sceneID="P6v-Vj-Pkf">
+            <objects>
+                <viewController id="x71-NM-LFN" customClass="SimplePageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f2m-9a-tIf"/>
+                        <viewControllerLayoutGuide type="bottom" id="PGP-pf-GTg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e6S-xK-Ssc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="dataSource" destination="mcd-ie-erd" id="hKC-Hr-6nv"/>
+                        <outlet property="delegate" destination="tai-ek-kva" id="NI8-Sp-PBq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lSH-cX-wVk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="mcd-ie-erd" customClass="ModelController"/>
+                <customObject id="tai-ek-kva" customClass="RotationDelegate"/>
+            </objects>
+            <point key="canvasLocation" x="-344" y="-763"/>
+        </scene>
+        <!--GreenController-->
+        <scene sceneID="GAM-LC-wkT">
+            <objects>
+                <viewController storyboardIdentifier="GreenController" title="GreenController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UEI-Yz-bl1" userLabel="GreenController" customClass="ColorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0X5-ST-pQb"/>
+                        <viewControllerLayoutGuide type="bottom" id="NG9-hp-yuh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6m2-pA-AL2" userLabel="GreenView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJT-uT-htx">
+                                <rect key="frame" x="100" y="200" width="100" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="color" value="GREEN"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="indexLabel" destination="lJT-uT-htx" id="2UC-Nn-jqU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KCd-xb-g3w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-344" y="33"/>
+        </scene>
+        <!--RedController-->
+        <scene sceneID="JQX-gs-kgT">
+            <objects>
+                <viewController storyboardIdentifier="RedController" title="RedController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Eg4-6H-0IN" userLabel="RedController" customClass="ColorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pgx-QX-73z"/>
+                        <viewControllerLayoutGuide type="bottom" id="gHQ-QX-MXu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uiA-0s-5zQ" userLabel="RedView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHq-J6-SXc">
+                                <rect key="frame" x="100" y="200" width="100" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76773494529999997" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="color" value="RED"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="indexLabel" destination="bHq-J6-SXc" id="0wv-Kw-9LB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fNv-9e-ZaT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16" y="33"/>
+        </scene>
+        <!--YellowController-->
+        <scene sceneID="Mur-a1-zK6">
+            <objects>
+                <viewController storyboardIdentifier="YellowController" title="YellowController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8jc-Eo-VRv" userLabel="YellowController" customClass="ColorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gqk-2n-zHl"/>
+                        <viewControllerLayoutGuide type="bottom" id="55V-Bd-rgq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XKa-3q-Sih" userLabel="YellowView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffI-0h-rvw">
+                                <rect key="frame" x="100" y="200" width="100" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="color" value="YELLOW"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="indexLabel" destination="ffI-0h-rvw" id="tsQ-Rd-Z53"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5mw-lh-iTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="312" y="33"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

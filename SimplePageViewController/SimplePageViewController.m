@@ -295,7 +295,6 @@
 	viewController.view.frame = self.view.bounds;
 	viewController.view.transform = CGAffineTransformIdentity;
 	[self.view addSubview:viewController.view];
-	[self.view addSubview:viewController.view];
 	viewController.view.transform = CGAffineTransformMakeTranslation(-self.view.bounds.size.width, 0.0);
 }
 

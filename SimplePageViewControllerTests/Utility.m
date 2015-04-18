@@ -1,6 +1,5 @@
 //
 //  Utility.m
-//  BlockDesignProto
 //
 //  Created by patrick on 5/11/2013.
 //  Copyright (c) 2013 wattlebird. All rights reserved.
